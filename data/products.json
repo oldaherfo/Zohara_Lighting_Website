@@ -1,7 +1,15 @@
 {
-  "synced_at": null,
+  "synced_at": "2026-11-25T21:04:00.691669+00:00",
   "products": [],
   "top_5_products": [],
   "latest_products": [],
-  "support_models": []
+  "support_models": [
+    {
+      "product_id": "C3413",
+      "model_name": "C3413",
+      "name": "C3413",
+      "instructions_pdf_url": "",
+      "assembly_video_url": ""
+    }
+  ]
 }
