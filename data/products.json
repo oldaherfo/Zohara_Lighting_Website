@@ -1,15 +1,67 @@
 {
-  "synced_at": "2026-11-25T21:04:00.691669+00:00",
-  "products": [],
-  "top_5_products": [],
-  "latest_products": [],
+  "synced_at": "2026-11-25T21:21:12.544480+00:00",
+  "products": [
+    {
+      "product_id": "C3413",
+      "name": "Lotus Flower",
+      "model_name": "C3413",
+      "description": "Bring nature-inspired elegance into your home with this beautifully sculpted pendant lamp. Featuring an intricate layered design, its wooden elements create a stunning interplay of light and shadow, producing a warm and inviting glow.\nMore than just a lighting fixture, this statement piece transforms your space with its organic silhouette, rich wood tones, and captivating illumination. Perfect for living rooms, dining areas, bedrooms, and contemporary interiors.\nA distinctive design. A warm atmosphere. A statement of light.",
+      "price": 30.47,
+      "currency": "USD",
+      "discount_offer_percent": 10.0,
+      "amazon_url": "https://www.amazon.com/Pantallas-profundidad-poli%C3%A9ster-pantallas-industriales/dp/B0F6NFKH5S/ref=sxin_10_pa_sp_search_thematic_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.5da98d1f-2764-4978-95bf-3e23ef67d1b3%3Aamzn1.sym.5da98d1f-2764-4978-95bf-3e23ef67d1b3&crid=2OV70BXFHLVUZ&cv_ct_cx=lamp%2Blaser%2Bcut&keywords=lamp%2Blaser%2Bcut&pd_rd_i=B0F6NFKH5S&pd_rd_r=4b0652fd-38e4-4afe-a603-8918981beaaa&pd_rd_w=eLcBB&pd_rd_wg=R2UFP&pf_rd_p=5da98d1f-2764-4978-95bf-3e23ef67d1b3&pf_rd_r=ZVCQTX8N595YYPRTKPGX&qid=1795641530&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=lamp%2Blaser%2Bc%2Caps%2C207&sr=1-3-bce71493-9208-4a17-a58b-54f13851e920-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1",
+      "image_url": "https://ucarecdn.com/63ef379f-2f6d-4483-81cd-b7b16f3dba8a/-/format/auto/-/preview/3000x3000/-/quality/lighter/Laser%20Cut%20Wooden%20Integrated%20Lamp%20Shade%20009.jpg",
+      "category": "Zohara Lighting",
+      "status": "PUBLISHED",
+      "assembly_video_url": "https://www.youtube.com/watch?v=7jMui788lqA&pp=ygUabGFtcCBhc3NlbWJseSBpbnN0cnVjdGlvbnPSBwkJEAgBhyohjO8%3D",
+      "instructions_pdf_url": "https://cdn-data.article.com/documents/assemblyinstruction/AI0738/document.pdf",
+      "support_description": ""
+    }
+  ],
+  "top_5_products": [
+    {
+      "product_id": "C3413",
+      "name": "Lotus Flower",
+      "model_name": "C3413",
+      "description": "Bring nature-inspired elegance into your home with this beautifully sculpted pendant lamp. Featuring an intricate layered design, its wooden elements create a stunning interplay of light and shadow, producing a warm and inviting glow.\nMore than just a lighting fixture, this statement piece transforms your space with its organic silhouette, rich wood tones, and captivating illumination. Perfect for living rooms, dining areas, bedrooms, and contemporary interiors.\nA distinctive design. A warm atmosphere. A statement of light.",
+      "price": 30.47,
+      "currency": "USD",
+      "discount_offer_percent": 10.0,
+      "amazon_url": "https://www.amazon.com/Pantallas-profundidad-poli%C3%A9ster-pantallas-industriales/dp/B0F6NFKH5S/ref=sxin_10_pa_sp_search_thematic_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.5da98d1f-2764-4978-95bf-3e23ef67d1b3%3Aamzn1.sym.5da98d1f-2764-4978-95bf-3e23ef67d1b3&crid=2OV70BXFHLVUZ&cv_ct_cx=lamp%2Blaser%2Bcut&keywords=lamp%2Blaser%2Bcut&pd_rd_i=B0F6NFKH5S&pd_rd_r=4b0652fd-38e4-4afe-a603-8918981beaaa&pd_rd_w=eLcBB&pd_rd_wg=R2UFP&pf_rd_p=5da98d1f-2764-4978-95bf-3e23ef67d1b3&pf_rd_r=ZVCQTX8N595YYPRTKPGX&qid=1795641530&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=lamp%2Blaser%2Bc%2Caps%2C207&sr=1-3-bce71493-9208-4a17-a58b-54f13851e920-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1",
+      "image_url": "https://ucarecdn.com/63ef379f-2f6d-4483-81cd-b7b16f3dba8a/-/format/auto/-/preview/3000x3000/-/quality/lighter/Laser%20Cut%20Wooden%20Integrated%20Lamp%20Shade%20009.jpg",
+      "category": "Zohara Lighting",
+      "status": "PUBLISHED",
+      "assembly_video_url": "https://www.youtube.com/watch?v=7jMui788lqA&pp=ygUabGFtcCBhc3NlbWJseSBpbnN0cnVjdGlvbnPSBwkJEAgBhyohjO8%3D",
+      "instructions_pdf_url": "https://cdn-data.article.com/documents/assemblyinstruction/AI0738/document.pdf",
+      "support_description": "",
+      "best_seller_rank": 1
+    }
+  ],
+  "latest_products": [
+    {
+      "product_id": "C3413",
+      "name": "Lotus Flower",
+      "model_name": "C3413",
+      "description": "Bring nature-inspired elegance into your home with this beautifully sculpted pendant lamp. Featuring an intricate layered design, its wooden elements create a stunning interplay of light and shadow, producing a warm and inviting glow.\nMore than just a lighting fixture, this statement piece transforms your space with its organic silhouette, rich wood tones, and captivating illumination. Perfect for living rooms, dining areas, bedrooms, and contemporary interiors.\nA distinctive design. A warm atmosphere. A statement of light.",
+      "price": 30.47,
+      "currency": "USD",
+      "discount_offer_percent": 10.0,
+      "amazon_url": "https://www.amazon.com/Pantallas-profundidad-poli%C3%A9ster-pantallas-industriales/dp/B0F6NFKH5S/ref=sxin_10_pa_sp_search_thematic_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&content-id=amzn1.sym.5da98d1f-2764-4978-95bf-3e23ef67d1b3%3Aamzn1.sym.5da98d1f-2764-4978-95bf-3e23ef67d1b3&crid=2OV70BXFHLVUZ&cv_ct_cx=lamp%2Blaser%2Bcut&keywords=lamp%2Blaser%2Bcut&pd_rd_i=B0F6NFKH5S&pd_rd_r=4b0652fd-38e4-4afe-a603-8918981beaaa&pd_rd_w=eLcBB&pd_rd_wg=R2UFP&pf_rd_p=5da98d1f-2764-4978-95bf-3e23ef67d1b3&pf_rd_r=ZVCQTX8N595YYPRTKPGX&qid=1795641530&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=lamp%2Blaser%2Bc%2Caps%2C207&sr=1-3-bce71493-9208-4a17-a58b-54f13851e920-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1",
+      "image_url": "https://ucarecdn.com/63ef379f-2f6d-4483-81cd-b7b16f3dba8a/-/format/auto/-/preview/3000x3000/-/quality/lighter/Laser%20Cut%20Wooden%20Integrated%20Lamp%20Shade%20009.jpg",
+      "category": "Zohara Lighting",
+      "status": "PUBLISHED",
+      "assembly_video_url": "https://www.youtube.com/watch?v=7jMui788lqA&pp=ygUabGFtcCBhc3NlbWJseSBpbnN0cnVjdGlvbnPSBwkJEAgBhyohjO8%3D",
+      "instructions_pdf_url": "https://cdn-data.article.com/documents/assemblyinstruction/AI0738/document.pdf",
+      "support_description": ""
+    }
+  ],
   "support_models": [
     {
       "product_id": "C3413",
       "model_name": "C3413",
       "name": "C3413",
-      "instructions_pdf_url": "",
-      "assembly_video_url": ""
+      "instructions_pdf_url": "https://cdn-data.article.com/documents/assemblyinstruction/AI0738/document.pdf",
+      "assembly_video_url": "https://www.youtube.com/watch?v=7jMui788lqA&pp=ygUabGFtcCBhc3NlbWJseSBpbnN0cnVjdGlvbnPSBwkJEAgBhyohjO8%3D"
     }
   ]
 }
