@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Find assembly videos and downloadable instructions for your Zohara Lighting lamp.">
+  <title>Assembly Support | Zohara Lighting</title>
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Zohara Lighting home"><img src="assets/images/logo.png" alt="Zohara Lighting"></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="shop.html">Shop</a>
+      <a href="about.html">About</a><a href="support.html" aria-current="page">Support</a><a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">We're here to help</p>
+    <h1>Let's put your lamp together.</h1>
+    <p>Choose your lamp model to find its step-by-step assembly video and downloadable instruction guide.</p>
+  </section>
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Assembly made simple</p>
+        <h2>Select your lamp model.</h2>
+        <p>Choose your model from the list below to view its assembly video and downloadable instructions.</p>
+      </div>
+      <div class="support-panel">
+        <label class="form-label" for="modelSelect">Select your lamp model</label>
+        <select id="modelSelect"><option value="">Loading available models…</option></select>
+        <div class="support-results" id="supportResults" aria-live="polite">
+          <div class="support-empty">Select a lamp model to view its assembly resources.</div>
+        </div>
+        <p class="notice">Need additional help? Contact our support team and include your lamp model so we can assist you faster.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><p>© <span id="year"></span> Zohara Lighting</p><p>Need help? <a href="contact.html">Get in touch</a>.</p></footer>
+<script src="assets/js/support.js"></script>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>

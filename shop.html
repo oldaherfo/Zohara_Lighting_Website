@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore the Zohara Lighting collection.">
+  <title>Shop | Zohara Lighting</title>
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <style>
+    .shop-catalog{background:#dedede;padding:58px 0 76px}
+    .shop-catalog .section-heading{margin-bottom:46px}
+    .shop-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:42px 20px}
+    .shop-grid .product-card img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;background:#eee}
+    .shop-grid .product-card-body{padding:9px 0 0}
+    .shop-grid .product-card h3{font:500 16px/1.35 'Montserrat',sans-serif;text-transform:uppercase;margin:0 0 7px}
+    .shop-grid .product-category{color:#666;font-size:13px;margin:0 0 8px}
+    .shop-grid .product-price{font-weight:700;font-size:14px}
+    @media(max-width:900px){.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:380px){.shop-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header class="site-header"><div class="header-inner">
+  <a class="brand" href="index.html" aria-label="Zohara Lighting home"><img src="assets/images/logo.png" alt="Zohara Lighting"></a>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="shop.html" aria-current="page">Shop</a>
+    <a href="about.html">About</a><a href="support.html">Support</a><a href="contact.html">Contact</a>
+  </nav>
+</div></header>
+<main>
+  <section class="page-hero"><p class="eyebrow">Explore the collection</p><h1>Our lamps.</h1><p>Discover lighting designed to bring warmth and character to your space.</p></section>
+  <section class="shop-catalog"><div class="container">
+    <div class="product-grid shop-grid" id="shopProducts"><div class="product-loading">Loading the collection…</div></div>
+  </div></section>
+</main>
+<footer class="site-footer"><p>© <span id="year"></span> Zohara Lighting</p><p><a href="contact.html">Contact</a> · <a href="support.html">Assembly support</a></p></footer>
+<script src="assets/js/shop.js"></script>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>

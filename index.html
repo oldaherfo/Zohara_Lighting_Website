@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Discover distinctive lighting by Zohara Lighting. Design that transforms spaces.">
+  <title>Zohara Lighting | Design That Transforms Spaces</title>
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <style>
+    .home-hero{min-height:610px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(0,0,0,.82),rgba(0,0,0,.28)),url('assets/images/banner.png') center/cover no-repeat;color:#fff}
+    .home-hero-inner{width:min(1120px,calc(100% - 48px));margin:auto;padding:100px 0}
+    .home-hero h1{font:500 clamp(44px,7vw,78px)/1.08 'Montserrat',sans-serif;max-width:760px;text-transform:uppercase;margin:14px 0 24px}
+    .home-hero p{max-width:560px;color:#e2e2e2;font-size:19px;margin:0 0 30px}
+    .home-design-section{
+      min-height:420px;
+      width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:#fff;
+      padding:70px 24px;
+      position:relative;
+      isolation:isolate;
+      background:
+        linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),
+        url('assets/images/where-design-meets-light.png') center 48%/cover no-repeat;
+    }
+    .home-design-content{width:min(760px,100%);margin:0 auto}
+    .home-design-section .eyebrow{
+      color:#f2a900;
+      font-size:16px;
+      font-weight:500;
+      margin:0 0 22px;
+    }
+    .home-design-section h2{
+      color:#e6b4f5;
+      font:500 clamp(28px,4vw,38px)/1.2 'Montserrat',sans-serif;
+      text-transform:uppercase;
+      margin:0 0 16px;
+    }
+    .home-design-section p:last-child{
+      color:#fff;
+      font-size:19px;
+      line-height:1.55;
+      max-width:680px;
+      margin:0 auto;
+    }
+    .best-sellers-section{background:#dedede;padding:48px 0 68px}
+    .best-sellers-section .section-heading{margin-bottom:58px}
+    .best-sellers-section .section-heading .eyebrow{color:#e49702;font-size:16px;letter-spacing:.4px;font-weight:500;margin-bottom:10px}
+    .best-sellers-section .section-heading h2{font-size:30px;margin-bottom:8px}
+    .best-sellers-section .section-heading p:last-child{color:#222;font-size:16px}
+    .product-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));column-gap:20px;row-gap:50px}
+    .product-card{min-width:0;background:transparent}
+    .product-card-link{display:block;color:inherit;text-decoration:none}
+    .product-card img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;background:#eee}
+    .product-card-body{padding:9px 0 0}
+    .product-category{color:#666;font-size:13px;line-height:1.4;margin:0 0 10px}
+    .product-card h3{font:500 16px/1.35 'Montserrat',sans-serif;text-transform:uppercase;margin:0 0 7px}
+    .product-price{font:700 14px 'Cabin',sans-serif;margin:0}
+    .product-card .product-link-label{display:none}
+    .best-sellers-section .all-products-link{margin:42px 0 0;text-align:center}
+    .latest-products-section{background:#dedede;padding:48px 0 68px}
+    .latest-products-section .section-heading{margin-bottom:56px}
+    .latest-products-section .section-heading .eyebrow{color:#e49702;font-size:16px;letter-spacing:.4px;font-weight:500;margin-bottom:10px}
+    .latest-products-section .section-heading h2{font-size:30px;margin-bottom:8px}
+    .latest-products-section .section-heading p{color:#222;font-size:16px;margin-bottom:42px}
+    .latest-store-button{min-width:170px}
+    .latest-products-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .home-support-banner{
+      position:relative;isolation:isolate;overflow:hidden;
+      background-color:#e9eeee;
+      background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='300' viewBox='0 0 500 300'%3E%3Cg fill='none' stroke='%23cfd7d5' stroke-width='1.5' opacity='.62'%3E%3Cpath d='M-20 280C70 210 55 120 5 20M18 180C90 170 105 120 112 68M30 205C80 210 130 190 155 145M80 130C25 115 15 75 12 48M-5 90C65 70 100 40 120 0M110 300C150 220 205 210 245 185M130 255C90 225 85 190 88 160M145 238C195 250 220 225 242 200'/%3E%3Cpath d='M0 300C30 230 45 210 80 185M500 280C430 210 445 120 495 20M482 180C410 170 395 120 388 68M470 205C420 210 370 190 345 145M420 130C475 115 485 75 488 48M505 90C435 70 400 40 380 0M390 300C350 220 295 210 255 185M370 255C410 225 415 190 412 160M355 238C305 250 280 225 258 200'/%3E%3C/g%3E%3C/svg%3E");
+      background-size:cover;background-position:center;
+      padding:56px 24px;
+    }
+    .home-support-inner{width:min(1120px,100%);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+    .home-support-title{padding-left:8%}
+    .home-support-title h2{font:500 clamp(30px,3.3vw,40px)/1.18 'Montserrat',sans-serif;text-transform:uppercase;margin:0}
+    .home-support-copy{text-align:center}
+    .home-support-copy h2{font:500 clamp(25px,3vw,34px)/1.2 'Montserrat',sans-serif;text-transform:uppercase;margin:0 0 12px}
+    .home-support-copy p{font-size:16px;line-height:1.9;margin:0 0 12px}
+    .home-support-copy .btn{min-width:285px}
+    .home-follow{background:#dedede;text-align:center;padding:12px 24px 22px}
+    .home-follow h2{font:500 30px/1.25 'Montserrat',sans-serif;text-transform:uppercase;margin:0 0 8px}
+    .home-follow p{margin:0 auto 24px;font-size:16px}
+    .home-social-links{display:flex;justify-content:center;gap:10px}
+    .home-social-links a{width:50px;height:50px;border-radius:50%;display:grid;place-items:center;background:#252525;color:white;text-decoration:none;font:700 27px Arial}
+    .home-social-links a:last-child{background:#df1717;font-size:20px}
+    .home-social-links .instagram-icon{display:block;width:30px;height:30px;object-fit:contain;border-radius:7px}
+    .home-footer{padding:82px 24px;background:#000}
+    .home-footer-inner{width:min(1140px,100%);margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center;gap:30px;text-align:left}
+    .home-footer-contact h3{font:600 14px 'Cabin',sans-serif;text-transform:uppercase;margin:0 0 18px;color:#fff}
+    .home-footer-contact p{font-size:15px;color:#fff;margin:0}
+    .home-footer-contact a{color:#fff;text-decoration:none}
+    .home-footer-logo{text-align:center}
+    .home-footer-logo img{width:190px;max-height:90px;object-fit:contain}
+    .home-footer-links{display:flex;justify-content:flex-end;gap:18px;flex-wrap:wrap}
+    .home-footer-links a{font:600 11px 'Cabin',sans-serif;text-transform:uppercase;letter-spacing:1px}
+    .home-footer-links p{width:100%;text-align:right;margin-top:10px}
+    .product-loading{grid-column:1/-1;text-align:center;padding:28px;background:var(--paper);color:#777}
+    @media(max-width:900px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:18px;row-gap:36px}}
+    @media(max-width:650px){.home-hero{min-height:500px;background-position:58% center}.home-design-section{min-height:360px;padding:58px 22px;background-position:48% center}.home-design-section p:last-child{font-size:16px}.best-sellers-section{padding:42px 0 54px}.best-sellers-section .section-heading{margin-bottom:34px}.best-sellers-section .section-heading h2{font-size:25px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:14px;row-gap:30px}.product-card h3{font-size:13px}.product-category{font-size:12px}}
+    @media(max-width:760px){
+      .home-support-inner{grid-template-columns:1fr;gap:28px;text-align:center}
+      .home-support-title{padding:0}
+      .home-support-title h2 br{display:none}
+      .home-support-copy .desktop-break{display:none}
+      .home-support-banner{padding:42px 22px}
+      .home-follow{padding:20px 18px 24px}
+      .home-footer-inner{grid-template-columns:1fr;text-align:center;gap:26px}
+      .home-footer-links{justify-content:center}
+      .home-footer-links p{text-align:center}
+      .home-footer{padding:48px 24px}
+    }
+    @media(max-width:360px){.product-grid{grid-template-columns:1fr}}
+  </style>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="256x256" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Zohara Lighting home"><img src="assets/images/logo.png" alt="Zohara Lighting"></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a><a href="shop.html">Shop</a>
+      <a href="about.html">About</a><a href="support.html">Support</a><a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="home-hero">
+    <div class="home-hero-inner">
+      <p class="eyebrow">Design that transforms spaces.</p>
+      <h1>Light is an art.</h1>
+      <p>Bring warmth, elegance, and distinctive character to your space with lighting designed to make every moment special.</p>
+      <a class="btn" href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">Discover the collection</a>
+    </div>
+  </section>
+
+  <section class="section best-sellers-section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Beyond illumination. A statement of design.</p>
+        <h2>Where design meets light.</h2>
+        <p>Discover products that make your space stand out.</p>
+      </div>
+      <div class="product-grid best-sellers-grid" id="bestSellerProducts">
+        <div class="product-loading">Loading our best sellers…</div>
+      </div>
+      <p style="text-align:center;margin:34px 0 0"><a class="btn btn-dark" href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">Explore the collection</a></p>
+    </div>
+  </section>
+
+  <section class="home-design-section" aria-label="Designed to inspire">
+    <div class="home-design-content">
+      <p class="eyebrow">Designed to inspire. Crafted to impress.</p>
+      <h2>Illuminate your world.</h2>
+      <p>Bring warmth, elegance, and distinctive character to your space with lighting designed to make every moment special.</p>
+    </div>
+  </section>
+
+  <section class="section latest-products-section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Visit our official store on Amazon!</p>
+        <h2>Latest products</h2>
+        <p>Discover our latest arrivals!</p>
+        <a class="btn latest-store-button" id="amazonStoreButton" href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">Visit store</a>
+      </div>
+      <div class="product-grid latest-products-grid" id="latestProducts">
+        <div class="product-loading">Loading our latest arrivals…</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-support-banner">
+    <div class="home-support-inner">
+      <div class="home-support-title">
+        <h2>Need help<br>assembling your<br>lamp?</h2>
+      </div>
+      <div class="home-support-copy">
+        <h2>Visit our support page</h2>
+        <p>Visit our Support Center for step-by-step assembly instructions<br class="desktop-break"> and helpful videos to guide you through the process.</p>
+        <a class="btn" href="support.html">View assembly guides <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+  <section class="home-follow">
+    <h2>Follow us</h2>
+    <p>Follow Zohara Lighting for design inspiration, new collections, and beautiful ways to transform your space.</p>
+    <div class="home-social-links" aria-label="Social media links">
+      <a href="#" aria-label="Instagram" title="Add your Instagram profile URL"><img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt=""></a>
+      <a href="#" aria-label="YouTube" title="Add your YouTube channel URL">▶</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer home-footer">
+  <div class="home-footer-inner">
+    <div class="home-footer-contact">
+      <h3>Contact details</h3>
+      <p><span aria-hidden="true">✉</span> <a href="mailto:support@zoharalighting.io">support@zoharalighting.io</a></p>
+    </div>
+    <a class="home-footer-logo" href="index.html" aria-label="Zohara Lighting home">
+      <img src="assets/images/logo.png" alt="Zohara Lighting">
+    </a>
+    <div class="home-footer-links">
+      <a href="about.html">About</a>
+      <a href="support.html">Support</a>
+      <a href="contact.html">Contact</a>
+      <p>© <span id="year"></span> Zohara Lighting</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/home.js"></script>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
